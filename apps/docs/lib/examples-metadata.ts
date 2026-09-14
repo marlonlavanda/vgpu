@@ -10,6 +10,7 @@ import { meta as optimizedBlackHoleMeta } from '../examples/optimized-black-hole
 import { meta as earthMeta } from '../examples/earth/meta';
 import { meta as atmosphereMeta } from '../examples/atmosphere/meta';
 import { meta as fluidMeta } from '../examples/fluid/meta';
+import { meta as liquidGeoMeta } from '../examples/liquid-geo/meta';
 import { meta as instancedRenderingMeta } from '../examples/instanced-rendering/meta';
 import { meta as batchRenderingMeta } from '../examples/batch-rendering/meta';
 import { meta as fftOceanMeta } from '../examples/fft-ocean/meta';
@@ -40,6 +41,7 @@ const rawMetadata = {
   earth: earthMeta,
   atmosphere: atmosphereMeta,
   fluid: fluidMeta,
+  'liquid-geo': liquidGeoMeta,
   'instanced-rendering': instancedRenderingMeta,
   'batch-rendering': batchRenderingMeta,
   'fft-ocean': fftOceanMeta,
@@ -79,6 +81,7 @@ export const exampleMetadataBySlug = {
   earth: withThumbnails(rawMetadata.earth),
   atmosphere: withThumbnails(rawMetadata.atmosphere),
   fluid: withThumbnails(rawMetadata.fluid),
+  'liquid-geo': withThumbnails(rawMetadata['liquid-geo']),
   'instanced-rendering': withThumbnails(rawMetadata['instanced-rendering']),
   'batch-rendering': withThumbnails(rawMetadata['batch-rendering']),
   'fft-ocean': withThumbnails(rawMetadata['fft-ocean']),

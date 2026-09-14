@@ -7,6 +7,7 @@ export const exampleSlugs = [
   'earth',
   'atmosphere',
   'fluid',
+  'liquid-geo',
   'instanced-rendering',
   'batch-rendering',
   'fft-ocean',
